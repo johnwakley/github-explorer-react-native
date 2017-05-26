@@ -1,0 +1,370 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchView renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    accessibilityLabel="repoList"
+    alwaysBounceHorizontal={false}
+    alwaysBounceVertical={true}
+    data={
+      Array [
+        Object {
+          "node": Object {
+            "description": "A starter template for TypeScript and React with a detailed README describing how to use the two together.",
+            "id": "MDEwOlJlcG9zaXRvcnk5MDc4NjI0Ng==",
+            "name": "TypeScript-React-Starter",
+            "stargazers": Object {
+              "totalCount": 1318,
+            },
+            "url": "https://github.com/Microsoft/TypeScript-React-Starter",
+          },
+        },
+        Object {
+          "node": Object {
+            "description": "Full configurable spreadsheet view user interfaces for iOS applications. With this framework, you can easily create complex layouts like schedule, gantt chart or timetable as if you are using Excel.",
+            "id": "MDEwOlJlcG9zaXRvcnk5MDk1Mzg4Nw==",
+            "name": "SpreadsheetView",
+            "stargazers": Object {
+              "totalCount": 1099,
+            },
+            "url": "https://github.com/kishikawakatsumi/SpreadsheetView",
+          },
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={null}
+    onEndReached={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onRefresh={[Function]}
+    onResponderGrant={[Function]}
+    onResponderReject={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={undefined}
+    onResponderTerminationRequest={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    onScrollShouldSetResponder={[Function]}
+    onStartShouldSetResponder={[Function]}
+    onStartShouldSetResponderCapture={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    onViewableItemsChanged={undefined}
+    refreshControl={
+      <RefreshControlMock
+        onRefresh={[Function]}
+        refreshing={false}
+      />
+    }
+    refreshing={false}
+    removeClippedSubviews={true}
+    renderItem={[Function]}
+    renderScrollComponent={[Function]}
+    scrollEventThrottle={50}
+    sendMomentumEvents={false}
+    stickyHeaderIndices={Array []}
+    style={
+      Array [
+        Object {
+          "flexDirection": "column",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "overflow": "scroll",
+        },
+        undefined,
+      ]
+    }
+    testID="repoList"
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  >
+    <RCTRefreshControl />
+    <RCTScrollContentView
+      collapsable={false}
+      onLayout={[Function]}
+      removeClippedSubviews={true}
+      style={
+        Array [
+          false,
+          undefined,
+        ]
+      }
+    >
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel="repoCell"
+          accessibilityTraits={undefined}
+          accessible={true}
+          hasTVPreferredFocus={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+              },
+              undefined,
+            ]
+          }
+          testID="repoCell"
+          tvParallaxProperties={undefined}
+        >
+          <View
+            style={
+              Object {
+                "margin": 20,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "fontSize": 20,
+                  "lineHeight": 25,
+                  "marginBottom": 5,
+                }
+              }
+            >
+              TypeScript-React-Starter
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "marginBottom": 5,
+                }
+              }
+            >
+              A starter template for TypeScript and React with a detailed README describing how to use the two together.
+            </Text>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "marginTop": 10,
+                }
+              }
+            >
+              <View />
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "paddingRight": 10,
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 16,
+                      },
+                      Object {
+                        "color": "grey",
+                        "paddingRight": 2,
+                      },
+                      Object {
+                        "fontFamily": "Material Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "dimgrey",
+                      "fontSize": 12,
+                    }
+                  }
+                >
+                  1318
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#cccccc",
+            "height": 1,
+          }
+        }
+      />
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          accessibilityComponentType={undefined}
+          accessibilityLabel="repoCell"
+          accessibilityTraits={undefined}
+          accessible={true}
+          hasTVPreferredFocus={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+              },
+              undefined,
+            ]
+          }
+          testID="repoCell"
+          tvParallaxProperties={undefined}
+        >
+          <View
+            style={
+              Object {
+                "margin": 20,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "fontSize": 20,
+                  "lineHeight": 25,
+                  "marginBottom": 5,
+                }
+              }
+            >
+              SpreadsheetView
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Object {
+                  "marginBottom": 5,
+                }
+              }
+            >
+              Full configurable spreadsheet view user interfaces for iOS applications. With this framework, you can easily create complex layouts like schedule, gantt chart or timetable as if you are using Excel.
+            </Text>
+            <View
+              style={
+                Object {
+                  "flex": 1,
+                  "flexDirection": "row",
+                  "marginTop": 10,
+                }
+              }
+            >
+              <View />
+              <View
+                style={
+                  Object {
+                    "flexDirection": "row",
+                    "flexWrap": "wrap",
+                    "paddingRight": 10,
+                  }
+                }
+              >
+                <Text
+                  accessible={true}
+                  allowFontScaling={false}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": undefined,
+                        "fontSize": 16,
+                      },
+                      Object {
+                        "color": "grey",
+                        "paddingRight": 2,
+                      },
+                      Object {
+                        "fontFamily": "Material Icons",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                    ]
+                  }
+                >
+                  
+                </Text>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Object {
+                      "color": "dimgrey",
+                      "fontSize": 12,
+                    }
+                  }
+                >
+                  1099
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollContentView>
+  </RCTScrollView>
+</View>
+`;

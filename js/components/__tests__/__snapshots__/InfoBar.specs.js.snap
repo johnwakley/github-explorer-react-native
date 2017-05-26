@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoBar renders with default props 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "height": 40,
+      "justifyContent": "center",
+      "padding": 10,
+      "position": "absolute",
+      "top": -40,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "grey",
+        "textAlign": "center",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`InfoBar renders with props 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "red",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "height": 40,
+      "justifyContent": "center",
+      "padding": 10,
+      "position": "absolute",
+      "top": -40,
+      "width": "100%",
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#999999"
+    hidesWhenStopped={true}
+    size="small"
+    style={
+      Object {
+        "marginRight": 10,
+      }
+    }
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "white",
+        "textAlign": "center",
+      }
+    }
+  />
+</View>
+`;

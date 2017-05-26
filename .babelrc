@@ -1,0 +1,6 @@
+{
+  "plugins": [
+    "relay"
+  ],  
+  "presets": ["react-native"]
+}

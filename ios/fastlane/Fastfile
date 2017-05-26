@@ -1,0 +1,22 @@
+fastlane_version "2.34.0"
+
+default_platform :ios
+
+platform :ios do
+  desc "Creates a build to run on the simulator (for Appium testing)"
+  lane :build do
+    xcodebuild(
+      clean: true,
+      build: true,
+      scheme: "githubExplorerProduction",
+      configuration: "Release",
+      derivedDataPath: "/tmp/githubExplorer-output",
+      sdk: "iphonesimulator10.3",
+      destination: "name=iPhone 6,OS=10.3",      
+      build_settings: {
+        "CODE_SIGNING_REQUIRED" => "NO",
+        "CODE_SIGN_IDENTITY" => ""
+      }
+    )
+  end    
+end
